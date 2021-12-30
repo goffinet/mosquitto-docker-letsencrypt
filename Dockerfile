@@ -1,5 +1,5 @@
 FROM python:3-alpine3.11
-LABEL maintainer synoniem https://github.com/synoniem
+LABEL maintainer goffinet https://github.com/goffinet
 
 # Set environment variables.
 ENV TERM=xterm-color
