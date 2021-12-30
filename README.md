@@ -24,7 +24,7 @@ Here is a sample [docker-compose.yml](https://docs.docker.com/compose/compose-fi
 version: '2'
 services:
   mqtt:
-    image: synoniem/alpine-mosquitto-certbot
+    image: goffinet/alpine-mosquitto-certbot
     networks:
       - backend-net
     ports:
