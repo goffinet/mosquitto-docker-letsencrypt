@@ -1,7 +1,7 @@
 version: '2'
 services:
   mqtt:
-    image: goffinet/alpine-mosquitto-certbot
+    image: ghcr.io/goffinet/alpine-mosquitto-certbot:master
     networks:
       - backend-net
     ports:
